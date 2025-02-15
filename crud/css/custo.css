@@ -1,0 +1,127 @@
+
+@font-face {
+    font-family: 'Sentic';
+    src: url('fonts/Sentic\ Text\ Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Sentic M';
+    src: url('fonts/Sentic\ Display\ Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Sentic P';
+    src: url('fonts/Sentic\ Display\ Light.otf') format('opentype');
+}
+
+*{
+    text-align: left;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(48, 48, 48);
+    font-size: 16px;
+    font-family: 'Sentic M', sans-serif;
+    height: auto;
+    width: 100%;
+    overflow-y: auto;   
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+}
+
+input.form-control {
+    height: auto;
+    padding: 8px;
+    border-radius: 4px;
+    line-height: 1.5;
+}
+
+
+h1 {
+    font-family: 'Sentic', sans-serif;
+    text-align: center;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+h3 {
+    font-family: 'Sentic', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Sentic', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(162, 0, 135);
+}
+
+p {
+    font-family: 'Sentic P';
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border-style: hidden;
+    cursor: pointer;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+button a{ 
+    color: white;   
+}
+
+button:hover{
+    letter-spacing: 1px;
+}
+
+a {
+    color: rgb(255, 0, 0);
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(128, 26, 26);
+    letter-spacing: 1px;
+}
+
+label {
+    font-size: 17px;
+    font-family: 'Sentic';
+}
+
+.icone {
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+}
+
+.cor {
+    color: rgb(17, 99, 22);
+}
+
+.caixa{
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    height: auto;
+    padding: 50px;
+    margin: 10% auto;
+    border-radius: 15px;
+    font-size: 20px;
+}

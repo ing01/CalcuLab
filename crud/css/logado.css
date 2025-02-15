@@ -1,0 +1,81 @@
+
+@font-face {
+    font-family: 'Sentic';
+    src: url('fonts/Sentic\ Text\ Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Sentic M';
+    src: url('fonts/Sentic\ Display\ Medium.otf') format('opentype');
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(48, 48, 48);
+    font-size: 16px;
+    font-family: 'Sentic M', sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    height: 100vh;            
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Sentic';
+    text-align: center;
+}
+
+a{
+    color: rgb(48, 48, 48);
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.caixa{
+    text-align: left;
+    background-color: white;
+    width: 350px;
+    height: auto;
+    padding: 50px;
+    margin: 10% auto;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.form{
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.symbol {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    opacity: 1;
+    animation: float 8s linear infinite;
+    pointer-events: none; /* Evita interferência ao clicar */
+}
+
+@keyframes float {
+    0% { transform: translateY(0px) rotate(0deg); opacity: 0.8; }
+    100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+}
+

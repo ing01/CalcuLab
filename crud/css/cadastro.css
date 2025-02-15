@@ -1,0 +1,79 @@
+
+@font-face {
+    font-family: 'Sentic';
+    src: url('fonts/Sentic\ Text\ Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Sentic M';
+    src: url('fonts/Sentic\ Display\ Medium.otf') format('opentype');
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(48, 48, 48);
+    font-size: 16px;
+    font-family: 'Sentic M', sans-serif;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border-style: hidden;
+    cursor: pointer;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+button a{ 
+    color: white;   
+}
+
+button:hover{
+    letter-spacing: 1px;
+}
+
+
+h1 {
+    font-family: 'Sentic';
+}
+
+a{
+    color: rgb(255, 0, 0);
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(128, 26, 26);
+    letter-spacing: 1px;
+}
+
+input.form-control {
+    height: auto;
+    padding: 8px;
+    border-radius: 4px;
+    line-height: 1.5;
+}
+
+.caixa{
+    text-align: center;
+    background-color: white;
+    width: 350px;
+    height: auto;
+    padding: 50px;
+    margin: 10% auto;
+    border-radius: 15px;
+    font-size: 20px;
+}
